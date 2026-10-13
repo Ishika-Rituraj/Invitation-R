@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Ishika &amp; Rituraj · Wedding Invitation</title>
+<title>Rituraj &amp; Ishika · Wedding Invitation</title>
 <meta name="description" content="Ishika & Rituraj — 18th & 19th December 2026, Kumbhalgarh, Rajasthan. You are warmly invited.">
 <meta name="theme-color" content="#7c0f14">
 <meta property="og:title" content="Ishika & Rituraj · Wedding Invitation">
@@ -187,11 +187,11 @@ html.js .cal{display:inline-block}
 
 /* ---------- events: equal heights ---------- */
 :root{--ev-h:30rem}
-#mayra,#haldi,#dj{min-height:var(--ev-h)}
+#haldi,#dj{min-height:var(--ev-h)}
 
 
 /* ---------- mayra ---------- */
-#mayra{padding-bottom:4rem}
+#mayra{padding-bottom:8.6rem}
 #mayra .hi{font-size:var(--ev-hi);margin-top:.3rem}
 #mayra .eng{letter-spacing:.16em;font-size:var(--ev-eng);color:#d86bd6;margin-top:.15rem}
 #mayra .desc{color:#e283e0;font-size:var(--ev-desc);margin:1.2rem 0 0;max-width:17rem}
@@ -201,7 +201,7 @@ html.js .cal{display:inline-block}
 #mayra .ml .desc{max-width:12.5rem}
 #mayra .jh{width:29%;aspect-ratio:290/552;right:2%;top:-.4rem;background-image:var(--i-jhumka);z-index:2}
 #mayra .mw{position:relative;margin-top:1.6rem;text-align:right;z-index:2}
-#mayra .holi{width:14rem;height:14rem;border-radius:50%;left:-3.6rem;bottom:-4.2rem;background:var(--i-holi) 38% 55%/175% auto;box-shadow:0 4px 18px rgba(0,0,0,.45),0 0 0 4px rgba(223,180,120,.4)}
+#mayra .holi{width:11rem;height:11rem;border-radius:50%;left:-3.2rem;bottom:-3.6rem;background:var(--i-holi) 38% 55%/175% auto;box-shadow:0 4px 18px rgba(0,0,0,.45),0 0 0 4px rgba(223,180,120,.4)}
 
 /* ---------- haldi ---------- */
 #haldi{padding-bottom:9.5rem}
@@ -254,16 +254,6 @@ html.js .cal{display:inline-block}
 #venue dl dt{font-size:.82rem;margin-top:.9rem;color:#fff1d6}
 #venue dl dd{font-size:.76rem;line-height:1.65;opacity:.9}
 
-/* ---------- family cards ---------- */
-#family{padding:5.4rem 1.1rem 9.8rem}
-#family .cm{left:50%;margin-left:-17%;bottom:.4rem;width:34%;aspect-ratio:1;background-image:var(--i-camel)}
-#family .label{margin:.6rem 0 1.5rem;display:block}
-.fam{display:flex;flex-direction:column;gap:.7rem}
-.fam section{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1rem .9rem 1.1rem;border:1px solid rgba(226,189,128,.38);border-radius:.4rem;background:#6a0b10}
-.fam h2{font-family:'Gotu',serif;font-weight:400;font-size:.98rem;line-height:1.3;color:var(--gold)}
-.fam .rule{margin:.5rem auto .7rem;width:38%;color:var(--gold)}
-.fam p{font-size:.8rem;line-height:1.7;color:#f6ead3}
-.fam p.gap{margin-top:.5rem}
 
 /* ---------- rose-petal shower ---------- */
 .petals{position:absolute;inset:0;pointer-events:none;z-index:3;overflow:hidden}
@@ -277,14 +267,6 @@ html.js .cal{display:inline-block}
 @keyframes prot{from{transform:perspective(260px) rotate3d(1,.55,.3,0deg)}to{transform:perspective(260px) rotate3d(1,.55,.3,360deg)}}
 @media (prefers-reduced-motion:reduce){.petals{display:none}}
 
-/* ---------- bird flock (Our Family) ---------- */
-.flock{position:absolute;left:0;right:0;top:3.5rem;height:6.4rem;overflow:hidden;pointer-events:none;z-index:1}
-.fl{position:absolute;left:0;top:0;width:100%;height:100%;animation:fly 17s linear infinite;animation-play-state:paused}
-.bd{position:absolute;left:var(--x);top:var(--y);width:calc(2.7rem*var(--s));height:calc(1.16rem*var(--s));fill:#f6e4c6;opacity:.88;animation:flap .85s ease-in-out infinite var(--dl);animation-play-state:paused;transform-origin:50% 60%}
-#family.live .fl,#family.live .bd{animation-play-state:running}
-@keyframes fly{0%{transform:translate(-60%,.8rem)}100%{transform:translate(100%,-.4rem)}}
-@keyframes flap{0%,100%{transform:scaleY(1)}50%{transform:scaleY(-.55)}}
-@media (prefers-reduced-motion:reduce){.fl{animation:none;transform:translateX(18%)}.bd{animation:none}}
 
 /* ---------- extra life (all pause when off-screen) ---------- */
 .card.live .pt,.card.live .ps,.card.live .pr{animation-play-state:running}
@@ -327,7 +309,6 @@ html.js .rv.in{opacity:1;transform:none}
   <a href="#cover" data-k="home" class="on">Home</a>
   <a href="#mayra" data-k="events">Events</a>
   <a href="#venue" data-k="venue">Venue</a>
-  <a href="#family" data-k="family">Our Family</a>
 </nav>
 
 <!-- ============ COVER ============ -->
@@ -362,14 +343,13 @@ html.js .rv.in{opacity:1;transform:none}
     <div class="orn"><i></i></div>
     <p class="dim cap" style="letter-spacing:.12em;text-transform:none;margin-right:0">|| Shree Ganeshay Namah ||</p>
     <p style="margin-top:1.4rem;color:var(--gold)">With the divine blessing of God,</p>
-    <p class="parents" style="margin-top:.3rem">Smt. Vimla Devi &amp; Dr. Prahalad Rai Somani</p>
-    <p class="dim" style="margin-top:.5rem;line-height:1.7">request the pleasure of your gracious presence on the auspicious occasion of the wedding ceremony of their granddaughter</p>
+    <p class="parents" style="margin-top:.3rem">Smt. Mrinalini &amp; Shree Mahendra Patil</p>
+    <p class="dim" style="margin-top:.5rem;line-height:1.7">request the pleasure of your gracious presence on the auspicious occasion of the wedding ceremony of their son</p>
     <hr class="rule">
+    <div class="name">Rituraj</div>
+    <div class="and">&amp;</div>
     <div class="name">Ishika</div>
     <p class="parents">D/o Smt. Minakshi &amp; Shree Pradeep Somani</p>
-    <div class="and">&amp;</div>
-    <div class="name">Rituraj</div>
-    <p class="parents">S/o Smt. Mrinalini &amp; Shree Mahendra Patil</p>
     <hr class="rule">
     <p class="parents" style="margin-top:1.3rem;line-height:1.9">18th &amp; 19th December, 2026<br>Kumbhalgarh, Rajasthan</p>
     <a class="rsvp" id="rsvp" href="#" target="_blank" rel="noopener">RSVP</a>
@@ -390,20 +370,6 @@ html.js .rv.in{opacity:1;transform:none}
       <div class="t">9:15 AM</div>
       <a class="cal" data-t="Milni · Ishika &amp; Rituraj" data-s="20261218T091500" data-e="20261218T101000">+ Add to calendar</a>
     </div>
-  </div>
-  <div class="mdiv rv"></div>
-  <div class="mb">
-  <div class="in-front rv" style="text-align:left;padding-left:.2rem">
-    <div class="hi">मायरा</div>
-    <div class="eng cap" style="margin-left:.2rem">Mayra</div>
-    <p class="desc">A heartfelt tradition where the maternal family blesses the bride, groom, and family with gifts and love</p>
-  </div>
-  <div class="when mw rv">
-    <div class="label">Time</div>
-    <div class="d">DECEMBER 18</div>
-    <div class="t">10:15 AM</div>
-    <a class="cal" data-t="Mayra · Ishika &amp; Rituraj" data-s="20261218T101500" data-e="20261218T120000">+ Add to calendar</a>
-  </div>
   </div>
   <div class="art holi"></div>
 </section>
@@ -456,13 +422,13 @@ html.js .rv.in{opacity:1;transform:none}
   <div class="banner"></div>
   <div class="ev in-front rv">
     <div class="eb">
-      <div class="hi">बारात स्वागत</div>
-      <div class="eng cap">Baarat Swagat</div>
+      <div class="hi">बारात</div>
+      <div class="eng cap">Baarat</div>
       <div class="when" style="margin-top:1rem">
         <div class="label">Time</div>
         <div class="d">DECEMBER 19</div>
-        <div class="t">12:15 PM</div>
-        <a class="cal" data-t="Baarat Swagat · Ishika &amp; Rituraj" data-s="20261219T121500" data-e="20261219T134500">+ Add to calendar</a>
+        <div class="t">10:15 AM</div>
+        <a class="cal" data-t="Baarat · Ishika &amp; Rituraj" data-s="20261219T101500" data-e="20261219T114500">+ Add to calendar</a>
       </div>
     </div>
     <div class="div"><i class="art pl"></i></div>
@@ -506,32 +472,6 @@ html.js .rv.in{opacity:1;transform:none}
     <a class="travelbtn" href="Travel%20Options.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6Zm7 1.5L18.5 9H14a1 1 0 0 1-1-1V3.5ZM8 13h8v1.6H8V13Zm0 3.4h8V18H8v-1.600Z"/></svg><span>Click here for detailed travel options</span></a>
   </div>
   <div class="banner b"></div>
-</section>
-
-<!-- ============ FAMILY ============ -->
-<section class="card red list" id="family" data-k="family">
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="bird" viewBox="-14 -8 28 12"><path d="M-13.500 1C-10-6.500-4-7.500 0-2 4-7.500 10-6.500 13.500 1 9.500-2 4.500-2.500 0 3.500-4.500-2.500-9.500-2-13.500 1Z"/></symbol></svg>
-  <div class="flock" aria-hidden="true"><div class="fl"><svg class="bd" style="--x:6.8rem;--y:2.2rem;--s:1.0;--dl:-0s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:4.9rem;--y:2.9rem;--s:0.9;--dl:-0.2s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:4.9rem;--y:1.5rem;--s:0.9;--dl:-0.4s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:3.1rem;--y:3.6rem;--s:0.8;--dl:-0.1s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:3.1rem;--y:0.8rem;--s:0.8;--dl:-0.3s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:1.2rem;--y:4.3rem;--s:0.7;--dl:-0.5s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:1.2rem;--y:0.1rem;--s:0.7;--dl:-0.15s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:9.0rem;--y:3.2rem;--s:0.6;--dl:-0.35s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg><svg class="bd" style="--x:10.0rem;--y:1.8rem;--s:0.55;--dl:-0.6s" viewBox="0 0 28 12"><use href="#bird" width="28" height="12"/></svg></div></div>
-  <div class="banner"></div>
-  <div class="in-front rv">
-    <span class="label">Our Family</span>
-    <div class="fam">
-      <section><h2>With Warm Regards</h2><hr class="rule">
-        <p>Harkaram, Ramnarayan, Badrilal, Ganeshram, Naresh, Ramgopal, Chandraprakash, Ramprakash &amp; all Somani Family</p></section>
-      <section><h2>Special Requests</h2><hr class="rule">
-        <p>Ramgopal – Aruna<br>Omprakash – Nirmala<br>Sandeep – Rajkumari<br>Kailash – Suman<br>Rakesh – Vijaya<br>Vinay – Khushi</p></section>
-      <section><h2>Guests of Honor</h2><hr class="rule">
-        <p>Kamla – Shyamsunder Ji Kabra<br>Sita – Suryaprakash Ji Nuwal<br>Sunita – Radheshyam Ji Chechani<br>Sharmila – Narendra Ji Patwari<br>Sweety – Sunil Ji Gattani<br>Shalini – Abhinav Ji Shah</p></section>
-      <section><h2>Samdhi Pravar</h2><hr class="rule">
-        <p>Shri Vijay Kumar Ji, Shri Rajkumar Ji, Shri Sumangal Ji, Shri Shubham Ji &amp; all Patil Family, Mumbai</p></section>
-      <section><h2>Nanihal Paksh</h2><hr class="rule">
-        <p>Omprakash Ji – Gayatri Devi<br>Basantilal Ji – Ratan Devi<br>Sandeep Ji – Arpita<br>Pradeep Ji – Nimisha<br>Ankur Ji – Neha<br>Vivaan, Vyom &amp; all Mundra Family, Bhilwara</p>
-        <p class="gap">Sunil Ji – Anamika<br>Shivya, Navya Bhutra, Mumbai</p></section>
-      <section><h2>Awaiting Your Presence</h2><hr class="rule">
-        <p>Harsh, Rhythm, Parth</p></section>
-    </div>
-  </div>
-  <div class="art cm"></div>
 </section>
 
 <footer><span class="script">Ishika &amp; Rituraj</span>18 – 19 December 2026</footer>
@@ -631,9 +571,6 @@ var LOCATION = "Via Lakhela Lakeview Resort, Pratap Marg, Fort Road, Kumbhalgarh
       }
       if('IntersectionObserver' in window){new IntersectionObserver(function(es){es.forEach(function(e){inv.classList.toggle('live',e.isIntersecting)})}).observe(inv)}else{inv.classList.add('live')}
     }
-    /* bird flock runs only while Our Family is on screen */
-    var fam=document.getElementById('family');
-    if(fam){if('IntersectionObserver' in window){new IntersectionObserver(function(es){es.forEach(function(e){fam.classList.toggle('live',e.isIntersecting)})}).observe(fam)}else{fam.classList.add('live')}}
     /* extra life: marigold petals (Haldi), stars (DJ Night), swing and glow, only while on screen */
     (function(){
       var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches,rnd=Math.random,i;
